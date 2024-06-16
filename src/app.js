@@ -73,7 +73,7 @@ class App extends React.Component {
         this.setState({
             users: [...this.state.users, name],
         });
-    }
+    }     
 
     removeUser(name) {
         const currUsers = this.state.users.filter(
